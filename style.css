@@ -1,0 +1,9 @@
+i.fab {
+	padding: 0 8px;
+	color: #0c2e44;
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+}
+i.fab:hover {
+	color: #33984b;
+}
