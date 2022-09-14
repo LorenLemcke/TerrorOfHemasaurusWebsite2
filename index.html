@@ -1,45 +1,266 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Terror of Hemasaurus - Official Website</title>
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
 <meta name="title" content="Terror of Hemasaurus">
-<meta name="description" content="Terror of Hemasaurus is a A Retro City Smash 'Em Up for Windows PC. An indie video game by Loren Lemcke.">
-<meta name="keywords" content="Video Games, Pixel Art, 2d, Retro, Terror, Terror of Hemasaurus, Hemasaurus, smash 'em up, smash em up, retro game, game, pc game, windows game, monster, attacks, city, monster attacks city game, indie, retro gaming, gaming">
+<meta name="description" content="Terror of Hemasaurus is a A Retro City Smash 'Em Up for Windows PC, Xbox, Playstation and Nintendo Switch. An indie video game by Loren Lemcke.">
+<meta name="keywords" content="Video Games, kaiju, rampage, Pixel Art, 2d, Retro, Terror, Terror of Hemasaurus, Hemasaurus, smash 'em up, smash em up, retro game, game, pc game, windows game, monster, attacks, city, monster attacks city game, indie, retro gaming, gaming">
 <meta name="robots" content="index, follow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="English">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+<style>
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
 
+.hero-image {
+  background-image: url("bg.jpg");
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  color: white;
+  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+}
+
+.hero2-text {
+  text-align: center;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.socialIcons {
+  text-align: center;
+  position: absolute;
+  top: 28%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.shadow {
+  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+    .twitterIcon {
+        width: 76px;
+        height: 68px;
+        position: relative;
+        display: inline-block;
+        margin: 1px;
+  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
+    .twitterIcon .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
+    .twitterIcon:hover .img-top {
+        display: inline;
+    }
+
+
+    .discordIcon {
+        width: 76px;
+        height: 68px;
+        position: relative;
+        display: inline-block;
+        margin: 1px;
+  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
+    .discordIcon .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
+    .discordIcon:hover .img-top {
+        display: inline;
+    }
+
+
+   .emailListIcon {
+        width: 68px;
+        height: 64px;
+        position: relative;
+        display: inline-block;
+        margin: 1px;
+  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
+    .emailListIcon .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
+    .emailListIcon:hover .img-top {
+        display: inline;
+    }
+
+
+   .youtubeIcon {
+        width: 68px;
+        height: 64px;
+        position: relative;
+        display: inline-block;
+        margin: 1px;
+  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
+    .youtubeIcon .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
+    .youtubeIcon:hover .img-top {
+        display: inline;
+    }
+
+
+.platformLogo {
+
+        position: relative;
+        display: inline-block;
+  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
+    .platformLogo .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
+    .platformLogo:hover .img-top {
+        display: inline;
+    }
+
+
+.blank_row
+{
+    height: 20px !important; /* overwrites any other rules */
+    background-color: #FFFFFF;
+}
+
+</style>
 </head>
+<body>
 
-<body bgcolor="#abddea">
-<h1><center><a href="https://store.steampowered.com/app/1016180/Terror_of_Hemasaurus/?utm_source=homepage_hema2&utm_campaign=logo_banner&utm_medium=web"><img src="logo3x.png"  alt="Terror of Hemasaurus"></a><br><font face="Roboto" size=5>A Retro City Smash 'Em Up</center></h1>
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/mKfh656Vnk8" class="shadow" style="border: 5px solid #003900;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-<br>
-</font>
-<center><font face="Roboto" style="font-variant-ligatures: none;" size=5><i class="fas fa-arrow-down" style="color: DarkGreen;"></i>  Wishlist to be notified upon release  <i class="fas fa-arrow-down" style="color: DarkGreen;"></i></font></center>
-<center><iframe src="https://store.steampowered.com/widget/1016180/" class="shadow" frameborder="0" width="646" height="190"></iframe></center><br><br>
-<font face="Roboto" size=5>
-<center>
-<table style="width:30%">
-
-<tr><a href="beta"><center><font face="Roboto" style="font-variant-ligatures: none;" size=5><i class="fas fa-arrow-right" style="color: DarkGreen;"></i>  Sign up for the Beta!  <i class="fas fa-arrow-left" style="color: DarkGreen;"></i></font></center></tr>
-</a>
+<div class="hero-image">
+  <div class="hero-text">
+    <a href="https://store.steampowered.com/app/1016180/Terror_of_Hemasaurus/?utm_source=homepage_hema2&utm_campaign=logo_banner&utm_medium=web" target="_blank">
+    <img src="logo.png" style="width: 30%;"></a>
+  </div>
+  <div class="hero2-text">
+    <center><iframe width="360" height="215" src="https://www.youtube.com/embed/DC-M3EA4EK8" class="shadow" style="border: 5px solid #003900;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<table class="shadow" align="center" style="width: 70%;">
 <tr>
-<th><a href="https://twitter.com/LorenLemcke" style="text-decoration: none;">
-<img src="gamesbylorenlogo.png" class="shadow" width="200"><br><center><div style="width: 200px;"><font face="Roboto" size=2 color="#444444">Established in Oulu, Finland, Games by Loren Lemcke is a one-man indie studio trapped in a tangent universe where the arcade scene of the '80s and '90s lived on forever.</th>
-<th><a href="https://twitter.com/LorenLemcke"></th></div></font></center></tr></table>
-</font><br></a>
+<td><a href="https://store.steampowered.com/app/1016180/Terror_of_Hemasaurus/?utm_source=WebsiteSteamIcon"  target="_blank" style="text-decoration:none; color: white;">
+<div class="platformLogo"><img src="steam.png" alt="Back"><img src="steam2.png" class="img-top" alt="Front"><br>Steam</a></div></td>
+<td><a href="https://store.epicgames.com/en-US/p/terror-of-hemasaurus-a08800"  target="_blank" style="text-decoration:none; color: white;">
+<div class="platformLogo"><img src="epic.png" alt="Back"><img src="epic2.png" class="img-top" alt="Front"><br>Epic</a></div></td>
+<td><a href="https://www.gog.com/en/game/terror_of_hemasaurus"  target="_blank" style="text-decoration:none; color: white;">
+<div class="platformLogo"><img src="gog.png" alt="Back"><img src="gog2.png" class="img-top" alt="Front"><br> GOG.com</a></div></td>
+</tr>
+<tr class="blank_row">
+</tr>
+<tr>
+<td><a href=""  target="_blank" style="text-decoration:none; color: white;">
+<div class="platformLogo"><img src="switch.png" alt="Back"><img src="switch2.png" class="img-top" alt="Front"><br>Switch</a></div></td>
+<td><a href=""  target="_blank" style="text-decoration:none; color: white;">
+<div class="platformLogo"><img src="playstation.png" alt="Back"><img src="playstation2.png" class="img-top" alt="Front"><br>Playstation</a></div></td>
+<td><a href=""  target="_blank" style="text-decoration:none; color: white;">
+<div class="platformLogo"><img src="xbox.png" alt="Back"><img src="xbox2.png" class="img-top" alt="Front"><br>Xbox</a></div></td>
 
+</tr>
+</table>
 
-<br></font>
-<font face="Roboto" size=2>
-Press contact: Loren@SuperBloodHockey.com<br>
-Terror of Hemasaurus - Copyright 2019 - Games by Loren Lemcke<br><Br></font>
-</center>
+<img src="gamesbylorenlogo.png" width="200" align="left" style="  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;"><p style="top: 200%; transform: translateY(40%);  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Operating in Turku, Finland, Games by Loren Lemcke is a one-man indie studio trapped in a tangent universe where the arcade scene of the '80s and '90s lived on forever.
+</p><p style="  -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">
+<br>Press Contact: Loren@SuperBloodHockey.com
+<br>Terror of Hemasaurus - Copyright 2022 - Games By Loren Lemcke</p>
+</div>
+<div class="socialIcons">
+<div class="twitterIcon">
+<a href="http://www.twitter.com/LorenLemcke" target="_blank" style="text-decoration:none; color: white;">
+    	<img src="twitter.png" alt="Back">
+        <img src="twitter2.png" class="img-top" alt="Front">
+@LorenLemcke</a>
+</div>
+<br>
+<br>
+<div class="discordIcon">
+<a href="https://discord.gg/ubEX4gxFN7" target="_blank" style="text-decoration:none; color: white;">
+    	<img src="discord.png" alt="Back">
+        <img src="discord2.png" class="img-top" alt="Front">
+Join our Discord!
+</a>
+    </div>
+<br><br>
+<a href="https://www.getrevue.co/profile/Loren" target="_blank" style="text-decoration:none; color: white;">
+<div class="emailListIcon">
+    	<img src="email.png" alt="Back">
+        <img src="email2.png" class="img-top" alt="Front">
+Join our Mailing List
+</a>
+</div>
 
+<br><br>
+<a href="https://www.youtube.com/channel/UC_lGPMbmA-VufP9ZoJumUIg" target="_blank" style="text-decoration:none; color: white;">
+<div class="youtubeIcon">
+    	<img src="youtube.png" alt="Back">
+        <img src="youtube2.png" class="img-top" alt="Front">
+Youtube
+</a>
+</div>
+
+</div>
+
+</div>
 </body>
-
 </html>
